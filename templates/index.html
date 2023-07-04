@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> </title>
+</head>
+<body>
+<center>
+   <h1> Automated Image Captioning </h1>
+<!--enctype='multipart/form-data is an encoding type that allows files to be sent through a POST. -->
+    <form action="{{url_for('after')}}" method='POST' enctype='multipart/form-data'>+
+    <input type="file" name='file1'>
+<input type="submit" name="btn" value='predict caption' class='btn btn-warning'>
+   </form>
+</center>
+
+
+</body>
+</html>
